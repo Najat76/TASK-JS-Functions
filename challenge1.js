@@ -3,6 +3,7 @@
  * Create a function named `printName`
  * - that just prints your name on the screen
  */
+'this is a test'
 
 /**
  * Task 2:
