@@ -8,6 +8,7 @@
  */
 function greet(name) {
   // Your code here
+  console.log("Hello", name);
 }
 
 /**
@@ -21,6 +22,9 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  //prompt ("enter a number: ");
+  if ((n % 2) == 0)
+  console.log("the number is odd number");
 }
 
 /**
@@ -34,6 +38,7 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   // Your code here
+  console.log(oddsSmallerThan(n));
 }
 
 /**
@@ -48,4 +53,17 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   // Your code here
+  if (function isOdd(N)) 
+   console.log(n**n);
+  // onsole.log(Math.pow(n,1)); // this multiply n once
+  
+  //console.log(squareOrDouble(n))
+  //console.log(square(n);
+
+  //const square = (n) => n ** 2;
+  //console.log(square);
+
+  else 
+    onsole.log(double(n)); 
 }
+  
