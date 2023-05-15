@@ -1,15 +1,21 @@
+/*function syntax
+==================
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+---------------------------------------------------------
+*/
 /**
  * Task 1:
  * Create a function named `printName`
  * - that just prints your name on the screen
  */
-/*let myName = Najat;*/
-function printName()
-const myName = Najat;
-{
-    console.log(myName);
+//correct my task after grade:
+
+function printName(myName) {
+  console.log(myName);
 }
-prompt(`enter your Name`, myName); ls
+let name = printName("najat");
 
 /* * Task 2:
  * Create a function named `printAge`
@@ -17,13 +23,12 @@ prompt(`enter your Name`, myName); ls
  * - and prints the age on the screen.
  * - Age = current year - birth
  */
-const birthYear = 1976;
-function printAge(birthYear)
-{
-    age = (20023 - birthYear);
-    console.log(age);
+
+function printAge(birth) {
+  return 2023 - birth;
 }
-alert(printAge(birthYear));
+console.log(printAge(1976));
+
 /**
  * Task 3:
  * Create a function named `printHello`
@@ -35,37 +40,22 @@ alert(printAge(birthYear));
  * -- tr: it should print `Merhaba NAME`
  */
 
-function printHello(myName,language) {
-
-    if (language = en) 
-        alert (`Hello NAME` ,myName)
-    
-    else if
-        (language = es) 
-        alert ( `Hola NAME` ,myName);
-
-        else if
-        (language = fr)
-        alert (`Bonjour NAME` , myName)
-
-        else if
-        (language = tr) 
-        alert(`Merhaba NAME` , myName)
-    }
-
-
-
-/**
- * Task 4:
- * Create a function named `printMax`
-* - that takes 2 parameters as numbers
- * - should print out the bigger number
- */
-
-function printMax(num1,num2); {
-//let result = Math.max(num1,num2)
-result = Math.max(num1,num2);
-console.log( `the bigger number is` , +result);
+function printHello(name, language) {
+  if (language == "en") {
+    console.log("Hello ", name);
+  } else if (language == "es") {
+    console.log("Hola ", name);
+  } else if (language == "fr") {
+    console.log("Bonjour ", name);
+  } else if (language == "tr") {
+    console.log("Merhaba ", name);
+  }
 }
 
+// else {
+//console.log("Merhaba ", name);
 
+//let x = printHello("Najat", "en");
+//let x = printHello("Najat", "es");
+//let x = printHello("Najat", "fr");
+let x = printHello("Najat", "tr");
