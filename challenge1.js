@@ -15,7 +15,7 @@ function name(parameter1, parameter2, parameter3) {
 function printName(myName) {
   console.log(myName);
 }
-let name = printName("najat");
+printName("najat");
 
 /* * Task 2:
  * Create a function named `printAge`
@@ -52,10 +52,7 @@ function printHello(name, language) {
   }
 }
 
-// else {
-//console.log("Merhaba ", name);
-
-//let x = printHello("Najat", "en");
-//let x = printHello("Najat", "es");
-//let x = printHello("Najat", "fr");
-let x = printHello("Najat", "tr");
+//printHello("Najat", "en");
+//printHello("Najat", "es");
+//printHello("Najat", "fr");
+//*printHello("Najat", "tr");
